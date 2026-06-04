@@ -64,6 +64,17 @@ nav a:hover{
     color: #a3ffbc;
 }
 
+section {
+  position: relative;
+  z-index: 2;
+  background: rgba(140, 240, 182, 0.95);
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 800px;
+  width: 90%;
+
+}
 .hero-saude,
 .hero-infraestrutura{
     text-align: center;
@@ -246,3 +257,4 @@ nav a:hover{
         margin: 24px 16px;
     }
 }
+
